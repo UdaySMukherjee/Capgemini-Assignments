@@ -1,6 +1,7 @@
 package oops;
 
 public class Employee {
+	static String company = "ASUS";
 	String name;
 	double salary;
 	long phoneNo;
@@ -24,9 +25,8 @@ public class Employee {
 		Employee p2 = new Employee("Ritika Roy", 23000);
 		Employee p3 = new Employee("Soham Das");
 		
-		System.out.println(p1.name+"\t"+p1.salary+"\t"+p1.phoneNo);
-		System.out.println(p2.name+"\t"+p2.salary);
-		System.out.println(p3.name);
+		System.out.println(Employee.company+"\t"+p1.name+"\t"+p1.salary+"\t"+p1.phoneNo);
+		System.out.println(Employee.company+"\t"+p2.name+"\t"+p2.salary);
+		System.out.println(Employee.company+"\t"+p3.name);
 	}
-
 }
