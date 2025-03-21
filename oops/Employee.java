@@ -6,13 +6,12 @@ public class Employee {
 	long phoneNo;
 	
 	Employee(String name, double salary, long phoneNo) {
-		this.name = name;
-		this.salary = salary;
+		this(name, salary);
 		this.phoneNo = phoneNo;
 	}
 	
 	Employee(String name, double salary) {
-		this.name = name;
+		this(name);
 		this.salary = salary;
 	}
 	
