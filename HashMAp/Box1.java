@@ -54,6 +54,9 @@ public class Box1{
 	Three constructors-> 1. ArrayList() -> No arguments (Constructs an empty list with an initial capacity of ten.)
 						 2. ArrayList(int initialcapacity)
 						 3. ArrayList(Collection<? extends E> c)
+
+       Vector class and Stack class are legacy classes.
+       Initial capacity of vector is 10 and it is thread-safe. ArrayList is not thread-safe. vector capacity is increased by 100%.
 	
 	 
 	 */
