@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Arrays;
 
 public class Demo1 {
@@ -48,8 +49,6 @@ public class Demo1 {
 		b.flush();
 		System.out.println("Data written");
 		
-		*/
-		
 		FileReader f3 = new FileReader("C:\\Users\\User\\Desktop\\Myfile\\textFile.txt");
 		BufferedReader b2 = new BufferedReader(f3);
 		
@@ -59,6 +58,16 @@ public class Demo1 {
 			System.out.println(line);
 			line=b2.readLine();
 		}
+		
+		*/
+		
+		PrintWriter pw = new PrintWriter("C:\\\\Users\\\\User\\\\Desktop\\\\Myfile\\\\textFile.txt");
+		pw.println("hello");
+		pw.println(99.2);
+		pw.println(true);
+		pw.println('a');
+		pw.flush();
+		System.out.println("Data written");
 		
 	}
 }
