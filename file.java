@@ -22,6 +22,7 @@ abstract class AbstractVehicle implements Vehicle {
         System.out.println("Name: " + name);
         System.out.println("Speed: " + speed);
     }
+    //
 
     @Override
     public void accelerate(int increment) {
